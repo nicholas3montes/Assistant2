@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "uwuOS6/UlFKmPc2IX41jJcnKL+lqqNTECbxh4l2cNPVb0Ai6MLDgS1smYFc2UqodHVGExycvKkKZ5Q4hqydCZQ==",
+  "dgSpecHash": "fpul9aXJsP69HGhaqR59p+SH+w5bi8NhJuunS02ghl4lvC3uvmFKwY/p0yo89EIRQKmOHu+uV1c6+YpqYHGCIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\nicholas\\source\\repos\\Assistant2\\Assistant2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicholas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\nicholas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\nicholas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\nicholas\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\nicholas\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\nicholas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
