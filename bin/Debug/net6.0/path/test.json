@@ -1,77 +1,77 @@
 [
   {
-    "pedido": "01",
-    "forma de pagamento": "Cartão",
-    "valor do pedido": "48,40",
-    "entrega": "Retirar balcão",
-    "items": [
+    "OrderId": "01",
+    "PaymentMethod": "Cartão",
+    "OrderPrice": "48.40",
+    "WithdrawalMethod": "Retirar balcão",
+    "Items": [
       {
-        "categoria do produto": "Pizza",
-        "item": "Quatro queijos",
-        "quantidade item": 1,
-        "valor item": "36,40"
+        "Category": "Pizza",
+        "Description": "Quatro queijos",
+        "Quantity": 1,
+        "Value": "36.40"
       },
       {
-        "categoria do produto": "Bebida",
-        "item": "Coca-cola",
-        "quantidade item": 1,
-        "valor item": "12,00"
+        "Category": "Bebida",
+        "Description": "Coca-cola",
+        "Quantity": 1,
+        "Value": "12.00"
       }
     ]
   },
   {
-    "pedido": "02",
-    "forma de pagamento": "Dinheiro",
-    "valor do pedido": "15,00",
-    "entrega": "Entrega domicílio",
-    "items": [
+    "OrderId": "02",
+    "PaymentMethod": "Dinheiro",
+    "OrderPrice": "15.00",
+    "WithdrawalMethod": "WithdrawalMethod domicílio",
+    "Items": [
       {
-        "categoria do produto": "Hambúrguer",
-        "item": "Cheeseburger",
-        "quantidade item": 1,
-        "valor item": "15,00"
+        "Category": "Hambúrguer",
+        "Description": "Cheeseburger",
+        "Quantity": 1,
+        "Value": "15.00"
       }
     ]
   },
   {
-    "pedido": "03",
-    "forma de pagamento": "Cartão",
-    "valor do pedido": "22,50",
-    "entrega": "Retirar balcão",
-    "items": [
+    "OrderId": "03",
+    "PaymentMethod": "Cartão",
+    "OrderPrice": "22.50",
+    "WithdrawalMethod": "Retirar balcão",
+    "Items": [
       {
-        "categoria do produto": "Sanduíche",
-        "item": "Frango grelhado",
-        "quantidade item": 1,
-        "valor item": "22,50"
+        "Category": "Sanduíche",
+        "Description": "Frango grelhado",
+        "Quantity": 1,
+        "Value": "22.50"
       }
     ]
   },
   {
-    "pedido": "04",
-    "forma de pagamento": "Dinheiro",
-    "valor do pedido": "15,00",
-    "entrega": "Entrega domicílio",
-    "items": [
+    "OrderId": "04",
+    "PaymentMethod": "Dinheiro",
+    "OrderPrice": "15.00",
+    "WithdrawalMethod": "WithdrawalMethod domicílio",
+    "Items": [
       {
-        "categoria do produto": "Pizza",
-        "item": "Margherita",
-        "quantidade item": 1,
-        "valor item": "15,00"
+        "Category": "Pizza",
+        "Description": "Margherita",
+        "Quantity": 1,
+        "Value": "15.00"
       }
     ]
   },
   {
-    "pedido": "05",
-    "forma de pagamento": "Cartão",
-    "valor do pedido": "16,00",
-    "entrega": "Retirar balcão",
-    "items": [
+    "OrderId": "05",
+    "PaymentMethod": "Cartão",
+    "OrderPrice": "16.00",
+    "WithdrawalMethod": "Retirar balcão",
+    "Items": [
       {
-        "categoria do produto": "Bebida",
-        "item": "Suco de laranja",
-        "quantidade item": 2,
-        "valor item": "8,00"
+        "Category": "Bebida",
+        "Description": "Suco de laranja",
+        "Quantity": 2,
+        "Value": "8.00"
       }
     ]
   }
