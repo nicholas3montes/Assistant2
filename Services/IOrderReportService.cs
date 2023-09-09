@@ -2,6 +2,6 @@
 {
     public interface IOrderReportService
     {
-        Task<string> GetReport(string route);
+        Task<string> GetReport();
     }
 }

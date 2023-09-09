@@ -23,7 +23,7 @@
     "OrderId": "02",
     "PaymentMethod": "Dinheiro",
     "OrderPrice": "15.00",
-    "WithdrawalMethod": "WithdrawalMethod domicílio",
+    "WithdrawalMethod": "domicílio",
     "Items": [
       {
         "Category": "Hambúrguer",
@@ -51,7 +51,7 @@
     "OrderId": "04",
     "PaymentMethod": "Dinheiro",
     "OrderPrice": "15.00",
-    "WithdrawalMethod": "WithdrawalMethod domicílio",
+    "WithdrawalMethod": "domicílio",
     "Items": [
       {
         "Category": "Pizza",

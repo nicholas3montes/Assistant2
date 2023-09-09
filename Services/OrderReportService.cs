@@ -1,16 +1,23 @@
 ﻿using Assistant2.Models;
+using Assistant2.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
 namespace Assistant2.Services
 {
     public class OrderReportService : IOrderReportService
     {
-        public async Task<string> GetReport(string route)
+        private readonly IRepository<Order> _orderRepository;
+
+        public OrderReportService(IRepository<Order> orderRepository)
+        {
+            _orderRepository = orderRepository;
+        }
+        public async Task<string> GetReport()
         {
             try
             {
-                string content = await File.ReadAllTextAsync(route);
-                var orders = JsonConvert.DeserializeObject<List<Order>>(content);
+                var orders = await _orderRepository.GetAll().ToListAsync();
 
                 if (orders != null)
                 {

@@ -10,6 +10,7 @@ namespace Assistant2.Controllers
     {
         private readonly IOrderService _orderService;
         private readonly IOrderReportService _orderReportService;
+        
         public OrderController(IOrderService orderService, IOrderReportService orderReportService)
         {
             _orderService = orderService;
@@ -21,9 +22,8 @@ namespace Assistant2.Controllers
         {
             try
             {
-                string filePath = "path\\test.json";
-                var orderService = _orderService;
-                var orders = orderService.GetOrders(filePath);
+
+                var orders = _orderService.GetOrders();
                 if (orders != null)
                 {
                     return await orders;
@@ -44,8 +44,7 @@ namespace Assistant2.Controllers
         {
             try
             {
-                string filePath = "path\\test.json";
-                var result = _orderReportService.GetReport(filePath);
+                var result = _orderReportService.GetReport();
 
                 if (result != null)
                 {
